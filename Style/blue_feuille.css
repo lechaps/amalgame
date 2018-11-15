@@ -1,0 +1,168 @@
+html, body {
+	padding-top	: 10px;
+	margin		: 0px;
+	font-family	: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size	: 14px;
+	text-align	: justify;
+	
+ }
+ 
+body {
+	background-color	: #FEFFFF ;
+}
+
+textarea, input {
+	padding		: 0px;
+	margin		: 0px;
+	font-family	: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size	: 14px;
+}
+
+.TABLE_MAIN {
+	width				: 1280px;
+	margin-top			: 10px;
+	margin-bottom		: 10px;
+	border-spacing		: 0px;
+	border-collapse		: collapse;
+}
+
+.Menu_Barre {
+	background-color	: #669acc;
+	height  			: 30px;
+	text-align			: center;
+	border-color		: #669acc;
+	border-width		: 1px;
+	border-style		: solid;
+	border-right-style	: none;
+	width				: 50%;
+	
+}
+
+.Menu_Barre a {
+	color			: #FEFFFF;
+	text-decoration	: none;
+	
+}
+
+.Menu_Barre a:hover {
+	text-decoration	: underline;
+	cursor			: pointer;
+}	
+
+.Menu_interligne {
+	border-right-color	: #669acc;
+	border-right-width	: 1px;
+	border-right-style	: solid;
+	border-left-width	: 1px;
+	border-left-style	: solid;
+	border-left-color	: #669acc;
+	height				: 40px;
+}
+
+.Cadre {
+	border-color		: #669acc;
+	border-right-width	: 1px;
+	border-right-style	: solid;
+	border-bottom-width	: 1px;
+	border-bottom-style	: solid;
+	border-left-width	: 1px;
+	border-left-style	: solid;
+	padding-top			: 0px;
+	padding-left		: 45px;
+	padding-right		: 45px;
+	padding-bottom		: 45px;
+	line-height			: 16pt
+}
+
+
+.lien_interne {
+	color			: #3F4C6B;
+	text-decoration	: none;
+	
+}
+
+.lien_interne:hover {
+	text-decoration	: underline;
+	cursor			: pointer;
+}	
+
+
+.DIV_INCLUDE {
+	margin-left			: auto;
+	margin-right		: auto;
+	position			: relative;
+	width				: 800px;
+	padding				: 20px;
+	background			: #d9dde9 ;
+	color				: black;
+	
+}
+
+
+.DIV_INCLUDE a {
+	text-decoration	: none;
+}
+
+.DIV_INCLUDE a:hover {
+	text-decoration	: underline;
+	cursor			: pointer;
+}	
+
+.TABLE_INCLUDE {
+	width				: 100%;
+	padding-top			: 0px;
+	padding-left		: 20px;
+	padding-right		: 20px;
+	color				: black;
+}
+.TABLE_INCLUDE thead {
+	font-size	: 18px;
+}
+
+.indice_presentation{
+	font-size	: 20px;
+}
+
+.bouton {
+	position			: relative;
+	text-align			: center; 
+	width				: 120px;
+	background			: #FF0084;
+	color				: #FFFFFF;
+	cursor				: pointer;
+	border-color		: white;
+	border-width		: 1px;
+	border-style		: solid;
+}
+
+.champ {
+	text-align			: left; 
+	width				: 350px;
+	background			: white;
+	padding-left		: 2px;
+	color				: black;
+	font-weight			: bold;
+	border-color		: #669acc;
+	border-width		: 1px;
+	border-style		: solid;
+	
+}
+
+.champ_reponse	 {
+	font-size			: 50px;
+	text-align			: right; 
+	width				: 350px;
+	background			: white;
+	padding-left		: 2px;
+	color				: black;
+	font-weight			: bold;
+	border-color		: #669acc;
+	border-width		: 1px;
+	border-style		: solid;
+}
+
+.filet   {
+	font-size			: 10px;
+	text-align			: right; 
+	font-style			: italic;
+}
